@@ -1,1 +1,10 @@
-dsds
+<mat-drawer-container class="container" autosize>
+    <mat-drawer #drawer mode="over" position="start" class="sidenav">
+        <p>Menu</p>
+    </mat-drawer>
+    <mat-drawer-content>
+        <button mat-icon-button color="primary" (click)="drawer.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </mat-drawer-content>
+</mat-drawer-container>
