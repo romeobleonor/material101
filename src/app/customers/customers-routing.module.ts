@@ -1,3 +1,4 @@
+import { CustomerNewComponent } from './customer-new/customer-new.component';
 import { CustomerCardComponent } from './customer-card/customer-card.component';
 import { CustomerListComponent } from './customer-list/customer-list.component';
 import { NgModule } from '@angular/core';
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'info',
     component: CustomerCardComponent
+  },
+  {
+    path: 'new',
+    component: CustomerNewComponent
   }
 ];
 
