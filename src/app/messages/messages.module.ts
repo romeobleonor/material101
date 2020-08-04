@@ -12,6 +12,8 @@ import { MatButtonModule} from '@angular/material/button';
 import { MatFormFieldModule} from '@angular/material/form-field';
 import {MatStepperModule} from '@angular/material/stepper';
 import { MatInputModule} from '@angular/material/input';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+
 
 @NgModule({
   declarations: [MessageListComponent, MessageNewComponent],
@@ -23,7 +25,8 @@ import { MatInputModule} from '@angular/material/input';
     MatInputModule,
     MatStepperModule,
     FormsModule, ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    MatAutocompleteModule
   ]
 })
 export class MessagesModule { }
